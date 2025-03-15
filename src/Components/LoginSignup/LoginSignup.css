@@ -1,0 +1,97 @@
+.input img {
+    width: 25px; 
+    height: 25px; 
+    margin: 0px 30px; 
+  }
+.container { 
+    display: flex ;
+    flex-direction: column;
+    width : 600px ;
+    margin: auto ;
+    margin-top: 200px;
+    background:#fff; 
+    padding-bottom: 30px;
+  }
+.header {
+    display:flex ; 
+    flex-direction: column ;
+    align-items: center ;
+    font-family: 'Big Shoulders Display', cursive;
+    gap :9px ; 
+    width: 100%;
+    margin-top : 30px ;
+}
+.inputs { 
+    display : flex ; 
+    flex-direction: column;
+    gap : 15px ;
+    margin-top: 10px;
+    
+}
+.text {
+    color : #A7C7E7;
+    font-size : 50px; 
+    font-weight : 700; 
+    
+}
+.underline { 
+    width : 61px;
+    height: 6px;
+    background: #A7C7E7;
+    border-radius: 9px;
+   
+}
+.input {
+    display: flex ;
+   align-items: center;
+    margin: auto ; 
+    width : 480px ; 
+    height : 80px ; 
+    background-color: #eaeeea;
+    border-radius: 6px;
+}
+.input input {
+    height : 20px ; 
+    width : 1000px ; 
+    background: transparent;
+    border : none ; 
+    outline : none ; 
+    color : #797979;
+    font-size: 19px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+.forgot-password {
+    
+    padding-left:0px ;
+    margin-top: 20px;
+
+
+}
+.forgot-password span {
+    color : #A7C7E7;
+    cursor : pointer ; 
+}
+.submit-container {
+    display : flex ; 
+    gap : 30px;
+    margin : 60px auto ;
+
+}
+.submit {
+    display : flex ; 
+    justify-content: center ;
+    align-items: center ;
+    width : 220px ; 
+    height: 59px;
+    color: #fff;
+    background : #C3AED6; 
+    border-radius : 50px ;
+    font-size : 19px ; 
+    font-weight: 700;
+    cursor : pointer
+ }
+ .gray {
+    background : #eaeaea ;
+    color : #676767 ; 
+
+ }
