@@ -1,10 +1,27 @@
+.logo-container{
+    display : inline-flex ; 
+    background: transparent;
+    flex-direction: column;
+    margin-top:20px;
+    margin-bottom: 20px ;
+    
+}
 .logo {
     display  : flex ; 
     flex-direction : column;
     width : 200px ; 
-    height : 200px ;
+    height : 120px ;
     margin-bottom : 25px;
     margin-right : 50px ;
     margin-top: 20px;
+ 
     
+}
+.type-writer {
+    font-family : 'Big Shoulders Display', cursive;
+    font-size: 60px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #fff, #002fff);
+    -webkit-background-clip: text;
+    color: transparent;
 }

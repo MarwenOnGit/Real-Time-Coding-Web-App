@@ -8,10 +8,11 @@
     flex-direction: column;
     width : 600px ;
     margin: auto ;
-    margin-top: 120px;
+    margin-top: 50px;
     background:#fff; 
     padding-bottom: 30px;
     border-radius: 9px ;
+    background: transparent;
 
   }
 .header {
@@ -70,7 +71,7 @@
 
 }
 .forgot-password span {
-    color : #A7C7E7;
+    color : #001f62;
     cursor : pointer ; 
 }
 .submit-container {

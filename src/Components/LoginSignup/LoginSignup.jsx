@@ -4,7 +4,7 @@ import user_icon from  '../assets/user.png'
 import mail_icon from  '../assets/mail.png'
 import password_icon from  '../assets/padlock.png'
 const LoginSignup = () => {
-  const [action , _ ] = useState  ("Login")
+  const [action , _ ] = useState("Login")
   return (
     <div className='container'>
         <div className="header">
