@@ -1,5 +1,5 @@
 .logo-container{
-    display : inline-flex ; 
+    display : flex ; 
     background: transparent;
     flex-direction: column;
     margin-top:20px;
